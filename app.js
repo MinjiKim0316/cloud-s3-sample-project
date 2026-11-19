@@ -4,7 +4,7 @@ const express = require('express')
 const multer = require('multer')
 const multerS3 = require('multer-s3')
 const app = express()
-const port = 80;
+const port = 90;
 
 const s3 = new S3Client({
   credentials: {
